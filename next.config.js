@@ -1,6 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+/**
+ * @format
+ * @type {import('next').NextConfig}
+ */
 
-module.exports = nextConfig
+module.exports = {
+	reactStrictMode: true,
+	images: {
+		domains: ['api.lorem.space'],
+	},
+};
